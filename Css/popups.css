@@ -1,0 +1,25 @@
+.popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #FBFCFC;
+  color: #922B21;
+  font: 12px Arial, sans-serif;
+  text-align: center;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #922B21;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.show {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: visible;
+}
